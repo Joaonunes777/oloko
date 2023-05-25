@@ -1,25 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-<h1>Vai ser uma imagem aqui</h1>
-<ul>
-<li> NOME DO NEGÓCIO </li>
-<li> INTENS </li>
-</ul>
-</header>
-</body>
-</html>
-
-Estrutura CSS - Aula 01
-
-header {
-background-color: black;
-color: white;
+.cabeçalho {
+    background-color: #107500;
+    color: white;
+    display: flex;
+    padding: 24px;
+    font-size: 20px;
+    justify-content: space-around;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    .cabeçalhoimagem {
+    width: 8%;
+    height: 8%;
+    }
+    .cabeçalholista {
+    justify-content: center;
+    }
+    .sobre-o-loja {
+    background-image: linear-gradient(#107500, #a2f596);
+    color: white;
+    font-size: 20px;
+    padding: 0px 250px;
+    }
+    .sobre-a-loja {
+    padding: 24px 0px;
+    }
+    .cardápio {
+    background-image: linear-gradient(#a2f596, #107500);
+    color: white;
+    font-size: 20px;
+    padding: 0px 250px;
+    }
+    .cardápio-da-semana {
+    padding: 24px 0px;
+    }
+    .galeria {
+    background-image: linear-gradient(#107500, #107500);
+    color: white;font-size: 20px;
+    padding: 0px 250px;
+    }
+    .fotos {
+    width: 1%;
+    height: 1%;}
